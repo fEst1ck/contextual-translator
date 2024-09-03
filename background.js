@@ -62,7 +62,7 @@ function sendToChatGPT(selectedText, contextText, tabId, apiKey) {
 	});
 
 	const prompt =
-`Translate the word(s) "${selectedText}" into Chinese in the following context: "${contextText}".
+		`Translate the word(s) "${selectedText}" into Chinese in the following context: "${contextText}".
 
 Respond in the following format:
 If the selected word is only one word, output
