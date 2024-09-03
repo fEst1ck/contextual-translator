@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "Contextual Translator",
+	"version": "1.0",
+	"description": "Translate selected words in context using ChatGPT.",
+	"permissions": [
+	  "contextMenus",
+	  "activeTab",
+	  "scripting"
+	],
+	"background": {
+	  "service_worker": "background.js"
+	},
+	"action": {
+	  "default_popup": "popup.html"
+	}
+  }
+  
