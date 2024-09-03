@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Translator Settings</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 10px; }
-  </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Set API Key</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			padding: 10px;
+			width: 300px;  /* Increased width to make the popup wider */
+			box-sizing: border-box;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 5px;
+		}
+
+		input[type="text"] {
+			width: 100%;
+			padding: 5px;
+			margin-bottom: 10px;
+			box-sizing: border-box;
+		}
+
+		button {
+			padding: 5px 10px;
+			background-color: #007bff;
+			color: white;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;
+		}
+	</style>
 </head>
+
 <body>
-  <h3>Translator Settings</h3>
-  <label for="apiKey">OpenAI API Key:</label>
-  <input type="text" id="apiKey" placeholder="Enter your API key" />
-  <button id="save">Save</button>
-  <script src="popup.js"></script>
+	<h2>设置API密钥</h2>
+	<label for="apiKey">OpenAI API Key:</label>
+	<input type="text" id="apiKey" placeholder="Enter your API key here">
+	<button id="saveKey">保存</button>
+
+	<script src="popup.js"></script>
 </body>
+
 </html>
